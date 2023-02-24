@@ -1,0 +1,2 @@
+SELECT mhl_suppliers.name, straat, huisnr, postcode FROM mhl_suppliers JOIN mhl_membertypes ON (membertype=mhl_membertypes.id)
+WHERE mhl_membertypes.name IN ('Gold', 'Silver', 'Bronze', 'GEEN INTERRESSE')
